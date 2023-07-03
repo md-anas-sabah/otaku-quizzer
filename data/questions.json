@@ -1,137 +1,132 @@
 {
   "questions": [
     {
-      "question": "Which is the most popular JavaScript framework?",
-      "options": ["Angular", "React", "Svelte", "Vue"],
+      "question": "In the anime ‘Claymore’, who was the most powerful of the ‘Awakened Beings’",
+      "options": ["Riful", "Priscilla", "Noel", "Helen"],
       "correctOption": 1,
       "points": 10
     },
     {
-      "question": "Which company invented React?",
-      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "question": "Vegeta married a sharp-minded scientist. Who was she?",
+      "options": ["Android16", "Pam", "Chi-chi", "Bulma"],
       "correctOption": 3,
       "points": 10
     },
     {
-      "question": "What's the fundamental building block of React apps?",
-      "options": ["Components", "Blocks", "Elements", "Effects"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What's the name of the syntax we use to describe the UI in React components?",
-      "options": ["FBJ", "Babel", "JSX", "ES2015"],
-      "correctOption": 2,
-      "points": 10
-    },
-    {
-      "question": "How does data flow naturally in React apps?",
+      "question": "As prophesied, Goku transformed into the Super Saiyan form in ‘Dragon Ball Z’. Where did this transformation take place?",
       "options": [
-        "From parents to children",
-        "From children to parents",
-        "Both ways",
-        "The developers decides"
+        "Planet Namek",
+        "Planet Earth",
+        "Planet Arlia",
+        "Planet Sadala"
       ],
       "correctOption": 0,
       "points": 10
     },
     {
-      "question": "How to pass data into a child component?",
-      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "question": "The Shinigami in love with apples. Can you recall his name",
+      "options": ["Ichigo", "Aizen", "Ryuk", "Yamamoto"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Who is known as the ‘One Punch Man’",
+      "options": ["Saitama", "Goku", "Naruto", "Monkey D Luffy"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How many Dragon Balls are there?",
+      "options": ["Six", "Seven", "Nine", "Twelve"],
       "correctOption": 1,
       "points": 10
     },
     {
-      "question": "When to use derived state?",
+      "question": "Whose body gained the properties of rubber after unintentionally eating a Devil Fruit?",
       "options": [
-        "Whenever the state should not trigger a re-render",
-        "Whenever the state can be synchronized with an effect",
-        "Whenever the state should be accessible to all components",
-        "Whenever the state can be computed from another state variable"
+        "Akagami no Shanks",
+        "Buggy",
+        "Gol D Roger",
+        "Monkey D Luffy"
       ],
       "correctOption": 3,
       "points": 30
     },
     {
-      "question": "What triggers a UI re-render in React?",
-      "options": [
-        "Running an effect",
-        "Passing props",
-        "Updating state",
-        "Adding event listeners to DOM elements"
-      ],
+      "question": "Who protects the Silver Crystal?",
+      "options": ["Silvista", "Crocus", "Sailor Moon", "DoomsDay"],
       "correctOption": 2,
       "points": 20
     },
     {
-      "question": "When do we directly \"touch\" the DOM in React?",
+      "question": "An outcast prince takes over the revolution by controlling the mind of others. Who is he?",
       "options": [
-        "When we need to listen to an event",
-        "When we need to change the UI",
-        "When we need to add styles",
-        "Almost never"
+        "Prince Vegeta",
+        "Vinsmoke Sanji",
+        "Anos Voldigod",
+        "Lelouch Lanperouge."
       ],
       "correctOption": 3,
       "points": 20
     },
     {
-      "question": "In what situation do we use a callback to update state?",
+      "question": "Can you name the director of the ‘Death Note’ 2017 Movie?",
       "options": [
-        "When updating the state will be slow",
-        "When the updated state is very data-intensive",
-        "When the state update should happen faster",
-        "When the new state depends on the previous state"
+        "Hayao Miyazaki",
+        "Makoto Shinkai",
+        "Satoshi Kon",
+        "Adam Wingard"
       ],
       "correctOption": 3,
       "points": 30
     },
     {
-      "question": "If we pass a function to useState, when will that function be called?",
+      "question": "Name the voice actor behind the catching pika-pika of Pikachu from ‘Pokemon’.",
       "options": [
-        "On each re-render",
-        "Each time we update the state",
-        "Only on the initial render",
-        "The first time we update the state"
+        "Yuki Kaji",
+        "Christopher Sabat",
+        "Ikue Otani",
+        "Mamoru Miyano"
       ],
       "correctOption": 2,
       "points": 30
     },
     {
-      "question": "Which hook to use for an API request on the component's initial render?",
-      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "question": "In the anime ‘Hunter X Hunter’, which family is famous for being assassins?",
+      "options": [
+        "Spiders",
+        "Killua’s family",
+        "Kufa Vampir",
+        "Illumi Zoldyck"
+      ],
       "correctOption": 1,
       "points": 10
     },
     {
-      "question": "Which variables should go into the useEffect dependency array?",
+      "question": "Whose Zanpakuto is Wabisuke in ‘Bleach’ and had a crush on Hinamori Momo?",
       "options": [
-        "Usually none",
-        "All our state variables",
-        "All state and props referenced in the effect",
-        "All variables needed for clean up"
+        "Rangiku Matsumoto",
+        "Shunsui Kyōraku",
+        "Kira Izuru",
+        "Byakuya Kuchiki"
       ],
       "correctOption": 2,
       "points": 30
     },
     {
-      "question": "An effect will always run on the initial render.",
+      "question": "Who wrote and illustrated the manga on which ‘One Piece’ is based?",
       "options": [
-        "True",
-        "It depends on the dependency array",
-        "False",
-        "In depends on the code in the effect"
+        "Eiichiro Oda.",
+        "Akira Toriyama",
+        "Nobuhiro Watsuki",
+        "Urasawa Naoki"
       ],
       "correctOption": 0,
       "points": 30
     },
     {
-      "question": "When will an effect run if it doesn't have a dependency array?",
-      "options": [
-        "Only when the component mounts",
-        "Only when the component unmounts",
-        "The first time the component re-renders",
-        "Each time the component is re-rendered"
-      ],
+      "question": "Who was the first character in ‘Dragon Ball Z’ who achieved the Super Saiyan 2?",
+      "options": ["Prince Vegeta", "Trunks", "Goku", "Gohan"],
       "correctOption": 3,
       "points": 20
     }

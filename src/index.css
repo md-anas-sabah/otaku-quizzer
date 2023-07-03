@@ -9,7 +9,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +25,8 @@ html {
 body {
   min-height: 100vh;
   color: var(--color-light);
-  background-color: var(--color-darkest);
+  /* background-color: var(--color-darkest); */
+  background-color: rgb(18, 17, 17);
   padding: 3.2rem;
 }
 
@@ -47,7 +48,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+.app-header-logo {
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+}
 .error {
   text-align: center;
   font-size: 1.6rem;
@@ -62,7 +67,7 @@ img {
 }
 
 h1 {
-  font-family: "Codystar";
+  font-family: "Ubuntu";
   font-size: 5.6rem;
 }
 
