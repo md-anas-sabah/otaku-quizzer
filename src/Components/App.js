@@ -96,7 +96,8 @@ export default function App() {
   );
 
   useEffect(() => {
-    fetch("http://localhost:8000/questions")
+    // fetch("http://localhost:8000/questions")
+    fetch("https://quiz-app-3n2i.onrender.com/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
